@@ -38,12 +38,14 @@ Schemes: HTTPS
 ### POST /describe-chart
 
 #### Parameters
+
 |Type|Name|Description|Required|Schema|Default|
 |----|----|----|----|----|----|
 |BodyParameter|body|The charts' data and metadata.|true|input-schema||
 
 
 #### Responses
+
 |HTTP Code|Description|Schema|
 |----|----|----|
 |200|Success.|No Content|
