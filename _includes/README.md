@@ -67,7 +67,7 @@ Schemes: HTTPS
 
 ### input-schema
 
-{:.schema}
+{:#schema}
 |Name|Description|Required|Schema|Default|
 |----|----|----|----|----|
 |extensionVersion|Version Number of the input.|true|string||
