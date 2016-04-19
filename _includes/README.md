@@ -7,6 +7,8 @@ Yseop Savvy API
  
 ----------
 
+> * You can specify tag names. [Next](#next) <!-- {li:.wide} -->
+
 General Functioning
 -------------
 
