@@ -34,7 +34,9 @@ BasePath: /api/v1
 Schemes: HTTPS
 
 ## Paths
+
 ### POST /describe-chart
+
 #### Parameters
 |Type|Name|Description|Required|Schema|Default|
 |----|----|----|----|----|----|
