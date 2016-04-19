@@ -7,7 +7,10 @@ Yseop Savvy API
  
 ----------
 
-> * You can specify tag names. [Next](#next) <!-- {li:.wide} -->
+[Next](#next) <!-- {li:.wide} -->
+![Next](#next) <!-- {li:.wide} -->
+![Image](img.jpg)<!-- {width=20} -->
+![Div]
 
 General Functioning
 -------------
