@@ -15,9 +15,14 @@
 	    		</ul>
 			</nav>
 			<div class="container">
-			
+
 			{{ content }}
-			
+
+			<br/>
+
+			{% capture readme-include %}{% include README.md %}{% endcapture %}
+			{{ readme-include | markdownify }}
+
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
