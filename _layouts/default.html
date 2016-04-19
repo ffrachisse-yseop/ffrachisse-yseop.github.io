@@ -18,8 +18,9 @@
 			{{ content }}
 
 			<br/>
-			
-			{% markdown README.md %}
+
+			{% capture readme-include %}{% include README.md %}{% endcapture %}
+			{{ readme-include | markdownify }}
 
 			</div><!-- /.container -->
 			<footer>
