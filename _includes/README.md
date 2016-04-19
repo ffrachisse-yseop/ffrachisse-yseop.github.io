@@ -9,6 +9,7 @@ For now, it already has been integrated in **Yseop Savvy for Qlik** (plugin for 
 See more information on Yseop Savvy at https://savvy.github.io
 
 ## Limits
+
 Be nice. If you're sending too many requests too quickly, we'll send back a
 `503` error code (server unavailable).
 You are limited to 5000 requests per hour per `access_token` or `client_id`
@@ -65,7 +66,9 @@ Schemes: HTTPS
 * text/html
 
 ## Definitions
+
 ### input-schema
+
 |Name|Description|Required|Schema|Default|
 |----|----|----|----|----|
 |extensionVersion|Version Number of the input.|true|string||
