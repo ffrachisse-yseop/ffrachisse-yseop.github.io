@@ -32,3 +32,38 @@ Terms of service: https://savvy.yseop.com/api/terms
 Host: savvy-api.yseop-cloud.com
 BasePath: /api/v1
 Schemes: HTTPS
+
+## Paths
+### POST /describe-chart
+#### Parameters
+|Type|Name|Description|Required|Schema|Default|
+|----|----|----|----|----|----|
+|BodyParameter|body|The charts' data and metadata.|true|input-schema||
+
+
+#### Responses
+|HTTP Code|Description|Schema|
+|----|----|----|
+|200|Success.|No Content|
+|400|Bad request. Generally means the json format is not compliant to the schema. The body contains the error message.|No Content|
+|401|Unauthorized. Means your JWT token is not correct.|No Content|
+|404|Not Found. The application does not exist or there is a mistake in the URL.|No Content|
+|500|Server error. Can mean the json is misformed, or an exception occured in the application.|No Content|
+|503|Not Available. The server is currently unable to respond, because an update is running. Can occur too if the license is expired.|No Content|
+
+
+#### Consumes
+
+* application/json
+
+#### Produces
+
+* text/html
+
+## Definitions
+### input-schema
+|Name|Description|Required|Schema|Default|
+|----|----|----|----|----|
+|extensionVersion|Version Number of the input.|true|string||
+|charts|List of charts to describe.|true|object array||
+
