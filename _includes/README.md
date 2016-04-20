@@ -11,7 +11,8 @@ Yseop Savvy API
 General Functioning
 -------------
 
-{:#generalfunc}Yseop Savvy API is a **REST API**([What is REST API?] (http://www.restapitutorial.com/lessons/whatisrest.html)). You can process some tests using the Google Chrome Extension **Postman** (see more [here](https://www.getpostman.com/)).
+{:#generalfunc}
+Yseop Savvy API is a **REST API**([What is REST API?] (http://www.restapitutorial.com/lessons/whatisrest.html)). You can process some tests using the Google Chrome Extension **Postman** (see more [here](https://www.getpostman.com/)).
 
 **Our API is available at:** https://savvy-api.yseop-cloud.com/sandbox/api/v1/describe-chart
 
